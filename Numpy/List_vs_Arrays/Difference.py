@@ -22,8 +22,8 @@ print('\n###################################################\n"*" operator on Li
 print('###################################################')
 # List  :   '*' operator performs duplication of data in the list
 # NUmpy Array   :   '*' operator performs vector multiplication
-print("'*'on List with '2'   :   %s" % List_Test*2)
-print("'*'on Array with '2' :   %s" % Numpy_Array*2)
+print("'*'on List with '2'   :   %s" % (List_Test*2))
+print("'*'on Array with '2' :   %s" % (Numpy_Array*2))
 
 print('\n###################################################\n"**" operator on List and Numpy array')
 print('###################################################')
