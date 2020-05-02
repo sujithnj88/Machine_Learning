@@ -1,0 +1,5 @@
+/usr/bin/python3.7 /Programs/python/Machine_Learning_Git/Machine_Learning/Numpy/Speed_Check_on_Loop_dot_method/Exceution_Time.py
+Execution time of Loop  :   2.460464
+Execution time of dot instance method  :   0.032566
+Performance Factor(dot method is faster than loops method by)    :       75.55315359577475 times
+
