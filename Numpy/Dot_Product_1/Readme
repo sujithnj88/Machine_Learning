@@ -1,0 +1,12 @@
+Let's perform dot operation on two vectors a and b
+Link to reference on Vectors    :   https://www.mathsisfun.com/algebra/vectors-dot-product.html
+
+
+a.b =  |a| × |b| × cos(θ)
+    Where:
+        |a| is the magnitude (length) of vector a
+        |b| is the magnitude (length) of vector b
+         θ is the angle between a and b
+    Note    :   When two vectors are at right angles to each other the dot product is zero. (cos(90) = 0)
+
+a.b = aTb
