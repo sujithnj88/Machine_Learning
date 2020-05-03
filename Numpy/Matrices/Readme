@@ -1,0 +1,26 @@
+Matrices are basically a two or more dimensional array.
+
+1-D Array could be represented as vector :
+    eg : [1,2,3]
+
+Matrix is 2 or more dimensional array :
+    eg : [[0,1,2]
+          [3,4,5]
+          [6,7,8]]
+    This is a matrix of size m*n (3*3)
+
+Covers Fundamental matrix operations    :
+    1. Multiplication of Matrices
+    2. Addition of Matrices
+    3. Subtraction of Matrices
+    4. Division of Matrices
+
+diag function :
+    1. If the input to a diag function is a vector, the output will be matrix
+        eg : np.diag([1,2,3])
+             Output :   [1, 0, 0
+                         0, 2, 0
+                         0, 0, 3]
+    2. If the input to diag function is a matrix, the output will be a vector
+        eg : np.diag([[1, 2, 3],[4, 5, 6],[7, 8, 9]])
+             Output :   [1, 5, 9]
