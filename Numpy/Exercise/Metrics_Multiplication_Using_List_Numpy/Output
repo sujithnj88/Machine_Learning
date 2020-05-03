@@ -1,0 +1,6 @@
+/usr/bin/python3.7 /Programs/python/Machine_Learning_Git/Machine_Learning/Numpy/Exercise/Metrics_Multiplication_Using_List_Numpy/Using_List.py
+Execution time using List  :   0.227752
+Execution time of Numpy Array  :   0.083654
+Performance Factor(Multiplication of metrics sing Numpy is faster than using Lists by )    :       2.7225476366940016 times
+
+Process finished with exit code 0

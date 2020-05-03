@@ -1,0 +1,39 @@
+A linear system is a mathematical model of a system based on the use of a linear operator.
+Linear systems typically exhibit features and properties that are much simpler than the nonlinear case.
+
+Link to Linear System Solving using Matrix  :
+        https://www.mathsisfun.com/algebra/systems-linear-equations-matrices.html
+'''
+Problem Statement   :
+    The admission fee at a fair is 1.5$ for children and 4.0$ for adults.
+    On a certain day, 2200 people enter the fair, and 5050$ is collected.
+    How many children and how many adults attended the fair ?
+
+Problem Solving Method  :
+    x1 + x2 = 2200
+    1.5x1 + 4x2 = 5500
+
+Linear System in Matrix Form    :
+    x = [x1,x2]
+    a = [[1,1]
+         [1.5,4]]
+    b = [2200,5050]
+    ax = b
+
+Solution    :
+    x1 + x2  = 2200
+ 1.5x1 + 4x2 = 5050
+ ___________________
+ 0.5x1 + 3x2 = 2850
+
+ 0.5x1 = 2850 - 3x2
+       = 2850 - 3(2200-x1)
+       = 2850 - 6600 + 3x1
+       = -3750 + 3x1
+ 2.5x1 = 3750
+ x1 = 3750 / 2.5 => 1500
+ x2 = 2200 - x1 => 2200 - 1500 => 700
+
+ Number of Children : 1500
+ Number of Adult    : 700
+'''

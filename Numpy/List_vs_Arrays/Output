@@ -1,0 +1,30 @@
+/usr/bin/python3.7 /Programs/python/Machine_Learning_Git/Machine_Learning/Numpy/List_vs_Arrays/Difference.py
+Type of List_Test   :   <class 'list'>
+List_Test    :   [1, 2, 3, 4, 5, 6]
+Type of Numpy_Array   :   <class 'numpy.ndarray'>
+Numpy_Array    :   [1 2 3 4 5 6]
+##########################################################################
+
+###################################################
+"+" operator on List and Numpy array
+###################################################
+'+'on List with 7  :   [1, 2, 3, 4, 5, 6, 7]
+'+'on List with [8,9,10,11]   :   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+'+'on Array with Numpy_Array itself :   [ 2  4  6  8 10 12]
+
+###################################################
+"*" operator on List and Numpy array
+###################################################
+'*'on List with '2'   :   [1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7]
+'*'on Array with '2' :   [ 2  4  6  8 10 12]
+
+###################################################
+"**" operator on List and Numpy array
+###################################################
+Exception Occured    :   unsupported operand type(s) for ** or pow(): 'list' and 'int'
+Exponential Operation in progress    :   [1,4,9,16,25,36,49]
+Exponential Operation on Numpy Array   :   [ 1  4  9 16 25 36]
+Square root of Numpy array :   [1.         1.41421356 1.73205081 2.         2.23606798 2.44948974]
+Logarithm of Numpy Array :   [0.         0.69314718 1.09861229 1.38629436 1.60943791 1.79175947]
+
+Process finished with exit code 0

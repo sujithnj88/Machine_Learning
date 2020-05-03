@@ -1,0 +1,56 @@
+/usr/bin/python3.7 /Programs/python/Machine_Learning_Git/Machine_Learning/Numpy/Matrices/Using_Numpy_Array.py
+Value of 'Numpy_Array' variable is   :
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]
+
+'Numpy_Array[0][0]'   :   1
+
+'Numpy_Array[0,0]'   :   1
+
+Transpose of Numpy_Array :
+[[1 4 7]
+ [2 5 8]
+ [3 6 9]]
+
+Print '0'th Column value of Matrix    :   [1 4 7]
+
+Print '1'th Column value of Matrix    :   [2 5 8]
+
+Print '2'th Column value of Matrix    :   [3 6 9]
+
+Print '0'th row value of Matrix    :   [1 2 3]
+
+Print '1'th row value of Matrix    :   [4 5 6]
+
+Print '2'th row value of Matrix    :   [7 8 9]
+
+Exponential function application to 'Numpy_Array'    :
+[[2.71828183e+00 7.38905610e+00 2.00855369e+01]
+ [5.45981500e+01 1.48413159e+02 4.03428793e+02]
+ [1.09663316e+03 2.98095799e+03 8.10308393e+03]]
+Multiplication result of matrices    :
+[[1 2 3]            [[ 2  4  6]             [[ 60  72  84]
+ [4 5 6]     x       [ 8 10 12]      =       [132 162 192]
+ [7 8 9]]            [14 16 18]]             [204 252 300]]
+Addition result of matrices    :
+[[1 2 3]            [[ 2  4  6]         [[ 3  6  9]
+ [4 5 6]     +       [ 8 10 12]     =    [12 15 18]
+ [7 8 9]]            [14 16 18]]         [21 24 27]]
+Division result of matrices    :
+[[1 2 3]        [[ 2  4  6]         [[0.5 0.5 0.5]
+ [4 5 6]    /    [ 8 10 12]     =    [0.5 0.5 0.5]
+ [7 8 9]]        [14 16 18]]         [0.5 0.5 0.5]]
+Subtraction result of matrices    :
+[[1 2 3]        [[ 2  4  6]         [[-1 -2 -3]
+ [4 5 6]    -    [ 8 10 12]     =    [-4 -5 -6]
+ [7 8 9]]        [14 16 18]]         [-7 -8 -9]]
+Determinant of 'Numpy_Array' is     :   0.0
+No inverse found :   Singular matrix
+Trace of 'Numpy_Array' is     :   15
+Trace of 'Numpy_Array_1' is     :   30
+Diagonal Element of 'Numpy_Array' is     :   [1 5 9]
+Diagonal Element of 'Numpy_Array_1' is     :   [ 2 10 18]
+
+
+Process finished with exit code 0
