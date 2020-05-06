@@ -1,7 +1,7 @@
 Numpy array class is called ndarray
 
 The most important attributes of ndarray method are :
-    1. ndlm
+    1. ndim
         Number of axes( Dimension ) of the array
     2. shape
         For a matrix with n rows and m columns, shape will be (n,m) ("Tuple containing the dimension of the ndarray")
