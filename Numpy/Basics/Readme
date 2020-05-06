@@ -1,0 +1,16 @@
+Numpy array class is called ndarray
+
+The most important attributes of ndarray method are :
+    1. ndlm
+        Number of axes( Dimension ) of the array
+    2. shape
+        For a matrix with n rows and m columns, shape will be (n,m) ("Tuple containing the dimension of the ndarray")
+        Length of the shape is number of axes
+    3. size
+        Total number of elements of the array
+    4. dtype
+        An object describing the type of objects in the array.
+    5. itemsize
+        The size in bytes of the each elements in the array.
+    6. data
+        Buffer containing the actual elements of the array.
